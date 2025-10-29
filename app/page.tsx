@@ -23,7 +23,7 @@ const events = ["/events.jpg", "/events.jpg", "/events.jpg"];
 
 export default function SchoolHomepage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-sky-50 text-slate-800 overflow-hidden">
+    <main className="min-h-screen bg-linear-to-b from-blue-50 via-white to-sky-50 text-slate-800 overflow-hidden">
       {/* HERO SECTION */}
       <section className="relative h-[600px] w-full overflow-hidden">
         <Image
@@ -110,7 +110,7 @@ export default function SchoolHomepage() {
       </section>
 
       {/* FACILITIES */}
-      <section className="py-16 bg-gradient-to-r from-sky-50 to-indigo-50">
+      <section className="py-16 bg-linear-to-r from-sky-50 to-indigo-50">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -179,7 +179,7 @@ export default function SchoolHomepage() {
       </section>
 
       {/* GALLERY */}
-      <section className="py-16 bg-gradient-to-b from-indigo-50 to-white">
+      <section className="py-16 bg-linear-to-b from-indigo-50 to-white">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

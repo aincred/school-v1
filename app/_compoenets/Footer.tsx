@@ -112,7 +112,7 @@ export default function Footer() {
       {/* Copyright */}
       <div className="mt-10 border-t border-slate-800 pt-4 text-center text-xs text-slate-500">
         <p>
-          Copyright © 2023 <span className="text-slate-300">NR District CM SoE Seraikella</span>, Developed by
+          Copyright © 2025 <span className="text-slate-300">NR District CM SoE Seraikella</span>, Developed by
           <Link href="https://bluerix.com" target="_blank" className="text-indigo-300 hover:underline ml-1">
             Bluerix (OPC) Pvt. Ltd.
           </Link>
